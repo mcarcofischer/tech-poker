@@ -2,22 +2,18 @@
 
 # Tech Poker
 
-[Try it online](https://techpoker.onrender.com/)
+[Try it online](https://techpoker.0und0.de/)
 
-As it is hosted on a free Render host, it may take a while to boot up on first load.
+It is hosted on my host. Contact: [0und0 Support](mailto:support@0und0.de)
 
 ## What is this?
+
+This is a fork of [leonard84/tech-poker](https://github.com/leonard84/tech-poker).
 
 Tech Poker is a webapp to collaboratively use the [planning poker](https://en.wikipedia.org/wiki/Planning_poker) methodology.
 
 It was developed during a hackathon, has proven its usefulness, and is now actively used by multiple teams.
 
-## How to Deploy?
+## How to Deploy on your infra?
 
-Just create a Account at [Render](https://render.com) and a Docker (Web Service) project there.
-
-After linking this repo to the project, you just need to do two steps to make the app run:<br>
-- Set the 'Docker Command' in the settings to: `java -jar /app/techpoker.jar`.
-- Set the environment variable `SPRING_PROFILES_ACTIVE=render`.
-
-That should be all to build successful on Render.
+TODO

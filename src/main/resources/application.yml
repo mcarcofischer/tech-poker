@@ -52,3 +52,13 @@ poker:
 management:
   server:
     add-application-context-header: false
+---
+spring:
+  config:
+    activate:
+      on-profile: 0und0
+poker:
+  external-url: https://techpoker.0und0.de
+management:
+  server:
+    add-application-context-header: false

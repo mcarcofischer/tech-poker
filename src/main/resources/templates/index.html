@@ -75,17 +75,13 @@
             </ul>
             <h2>FAQ</h2>
             <dl>
-                <dt>Performance</dt>
-                <dd>This app runs on a free Render account, so resources are limited.
-                    However, as the backend is lightweight it should handle a good deal of concurrent sessions.
-                </dd>
                 <dt>Persistence</dt>
                 <dd>Sessions are only stored in-memory and are lost if the app shuts down, or a session is removed due to
                     inactivity.
                     There is no vote history, if a vote is reset then all individual votes are deleted.
                 </dd>
                 <dt>Security</dt>
-                <dd>SSL is provided by Render</dd>
+                <dd>SSL is provided by CertBot by Let’s Encrypt</dd>
                 <dt>Privacy</dt>
                 <dd>Everyone who knows the SessionId, can join the session and see the data.
                     However, the SessionId is a randomly generated UUID so the chance of guessing it or using bruteforce are
